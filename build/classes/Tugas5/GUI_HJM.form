@@ -79,7 +79,7 @@
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace pref="23" max="32767" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -183,7 +183,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnTampil">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Tampilkan"/>
+        <Property name="text" type="java.lang.String" value="TAMPILKAN"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnTampilActionPerformed"/>
@@ -213,7 +213,7 @@
     </Container>
     <Component class="javax.swing.JButton" name="btnHapus">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Hapus"/>
+        <Property name="text" type="java.lang.String" value="UPDATE"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnHapusActionPerformed"/>
@@ -221,7 +221,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnBatal">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Batal"/>
+        <Property name="text" type="java.lang.String" value="DELATE"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBatalActionPerformed"/>
@@ -229,7 +229,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnClose">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Close"/>
+        <Property name="text" type="java.lang.String" value="CLOSE"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCloseActionPerformed"/>

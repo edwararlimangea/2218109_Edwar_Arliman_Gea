@@ -4,6 +4,8 @@
  */
 package BAB5;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Edwar Arliman Gea
@@ -115,7 +117,8 @@ public class GUI_BangunDatar extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        if (cmd_pilih.getSelectedIndex() == 0) {
+        try{
+                    if (cmd_pilih.getSelectedIndex() == 0) {
             LuasPersegiPanjang lpp = new LuasPersegiPanjang();
             lpp.lebar = Integer.parseInt(txtlebar.getText());
             lpp.panjang = Integer.parseInt(txtpanjang.getText());
@@ -124,6 +127,11 @@ public class GUI_BangunDatar extends javax.swing.JFrame {
             LuasLingkaran ll = new LuasLingkaran();
             ll.r = Double.parseDouble(txtpanjang.getText());
             txthasil.setText(Double.toString(ll.Luas()));
+        }
+        }catch (NumberFormatException e){
+            JOptionPane.showMessageDialog(null, "Masukan Angka","Warning",2);
+        }catch(ArithmeticException f){
+            JOptionPane.showMessageDialog(null, "Jangan Nilai Yang Bukan NOL","Warning",2);
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 

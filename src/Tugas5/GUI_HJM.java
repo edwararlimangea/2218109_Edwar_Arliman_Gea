@@ -78,7 +78,7 @@ public class GUI_HJM extends javax.swing.JFrame {
 
         jLabel5.setText("Data Sepada Motor");
 
-        btnTampil.setText("Tampilkan");
+        btnTampil.setText("TAMPILKAN");
         btnTampil.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnTampilActionPerformed(evt);
@@ -98,21 +98,21 @@ public class GUI_HJM extends javax.swing.JFrame {
         ));
         jScrollPane2.setViewportView(table_HJM);
 
-        btnHapus.setText("Hapus");
+        btnHapus.setText("UPDATE");
         btnHapus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnHapusActionPerformed(evt);
             }
         });
 
-        btnBatal.setText("Batal");
+        btnBatal.setText("DELATE");
         btnBatal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnBatalActionPerformed(evt);
             }
         });
 
-        btnClose.setText("Close");
+        btnClose.setText("CLOSE");
         btnClose.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCloseActionPerformed(evt);
@@ -154,7 +154,7 @@ public class GUI_HJM extends javax.swing.JFrame {
                                 .addGap(62, 62, 62)
                                 .addComponent(btnClose))
                             .addComponent(jScrollPane2))))
-                .addContainerGap(23, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

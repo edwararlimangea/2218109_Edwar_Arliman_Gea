@@ -15,9 +15,6 @@ public class GUI_Penilaian extends javax.swing.JFrame {
      */
     public GUI_Penilaian() {
         initComponents();
-        KeaktifanMahasiswa nilai = new KeaktifanMahasiswa();
-        txtKeaktifan.setText(Integer.toString(nilai.nilai_keaktifan));
-        txtKeaktifan.setEnabled(false);
     }
 
     public void batal() {
